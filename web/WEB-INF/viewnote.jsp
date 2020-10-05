@@ -14,9 +14,11 @@
     <body>
         <p style = "font-size:40px;font-weight:bold">Simple Note Keeper</p>
         <h1>View Note</h1>
-        <h4>Title: </h4><p>${title}</p>
-        <h4>Contents: </h4><p>${contents}</p>       
+            
+        <p><strong>Title: </strong>${title}</p>
+        <p><strong>Contents: </strong>${contents}</p>       
         
-        <p> Edit</p>
+        <a href="note?edit=1">Edit<a/>
+            <h1>${test}</h1>
     </body>
 </html>
